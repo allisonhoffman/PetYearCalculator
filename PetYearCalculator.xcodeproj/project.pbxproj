@@ -12,6 +12,7 @@
 		CFEE695F1D87123A00101444 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEE695D1D87123A00101444 /* Main.storyboard */; };
 		CFEE69611D87123A00101444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEE69601D87123A00101444 /* Assets.xcassets */; };
 		CFEE69641D87123A00101444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEE69621D87123A00101444 /* LaunchScreen.storyboard */; };
+		CFEE696D1D87136900101444 /* PetYearCalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE696C1D87136900101444 /* PetYearCalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CFEE69601D87123A00101444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFEE69631D87123A00101444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFEE69651D87123A00101444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEE696C1D87136900101444 /* PetYearCalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetYearCalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		CFEE69581D87123A00101444 /* PetYearCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				CFEE69591D87123A00101444 /* AppDelegate.swift */,
+				CFEE696B1D87125D00101444 /* Supporting Files */,
 				CFEE695B1D87123A00101444 /* ViewController.swift */,
+				CFEE696C1D87136900101444 /* PetYearCalculatorBrain.swift */,
 				CFEE695D1D87123A00101444 /* Main.storyboard */,
+			);
+			path = PetYearCalculator;
+			sourceTree = "<group>";
+		};
+		CFEE696B1D87125D00101444 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE69591D87123A00101444 /* AppDelegate.swift */,
 				CFEE69601D87123A00101444 /* Assets.xcassets */,
 				CFEE69621D87123A00101444 /* LaunchScreen.storyboard */,
 				CFEE69651D87123A00101444 /* Info.plist */,
 			);
-			path = PetYearCalculator;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				CFEE695C1D87123A00101444 /* ViewController.swift in Sources */,
 				CFEE695A1D87123A00101444 /* AppDelegate.swift in Sources */,
+				CFEE696D1D87136900101444 /* PetYearCalculatorBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
